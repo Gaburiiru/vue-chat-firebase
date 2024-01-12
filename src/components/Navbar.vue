@@ -1,6 +1,6 @@
 <template>
   <nav>
-    <v-app-bar class="blue darken-1" dark>
+    <v-app-bar class="blue darken-1" dark app>
       <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
 
       <v-toolbar-title>Chat App</v-toolbar-title>
@@ -13,6 +13,8 @@
     </v-app-bar>
 
     <v-navigation-drawer class="blue darken-1" v-model="drawer" dark absolute>
+      <v-card-text></v-card-text>
+      <v-card-text></v-card-text>
       <v-layout column align-center mt-5>
         <v-flex>
           <v-list-item-avatar>
