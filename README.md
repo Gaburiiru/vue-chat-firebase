@@ -1,5 +1,5 @@
 # vue-chat
-
+link: https://vue-chat-firebase.netlify.app/
 ## Project setup
 ```
 npm install
