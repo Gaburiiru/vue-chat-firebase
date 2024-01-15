@@ -15,16 +15,16 @@
     <v-navigation-drawer class="blue darken-1" v-model="drawer" dark absolute>
       <v-card-text></v-card-text>
       <v-card-text></v-card-text>
-      <v-layout column align-center mt-5>
-        <v-flex>
+      <v-row column align-center mt-5>
+        <v-col>
           <v-list-item-avatar>
             <v-img :src="usuario.foto"></v-img>
           </v-list-item-avatar>
-        </v-flex>
-        <v-flex>
+        </v-col>
+        <v-col>
           <p class="mt-3 white--text">{{ usuario.nombre }}</p>
-        </v-flex>
-      </v-layout>
+        </v-col>
+      </v-row>
       <v-list>
         <v-list-item v-for="(item, index) in items" :key="index" :to="item.to">
           <v-list-item-icon>

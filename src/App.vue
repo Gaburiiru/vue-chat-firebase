@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <Navbar v-if="usuario != ''"></Navbar>
-    <v-main class="blue lighten-5">
+    <v-main class="blue lighten-5" style="padding: 0px; margin-top: 4rem;">
       <router-view />
     </v-main>
   </v-app>
@@ -23,10 +23,3 @@ export default {
   },
 };
 </script>
-
-<style>
-#contenedor {
-  padding: 0px;
-  margin: 0px;
-}
-</style>
